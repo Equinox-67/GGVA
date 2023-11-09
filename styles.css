@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
 
-
-
 body {
     margin: 0;
     padding: 0;
@@ -14,21 +12,18 @@ img {
 }
 
 .main_body {
-   padding-top: 5.5rem;
+    width: 90rem;
+    height: 64rem;
 }
 
-/* .container {
-    display: flex;
-    margin: 3rem 0rem 0rem;
-    justify-content: space-between;
-} */
 .dashboard {
     border-top-right-radius: 1rem;
     background: #9EB2D3;
-    width: 15.8125rem;
+    width: 17.8125rem;
     height: 58.9375rem;
     flex-shrink: 0;
     padding: 2rem 2rem 0rem 1rem;
+    margin-right: 3rem;
 }
 
 .dash-content {
@@ -47,7 +42,7 @@ img {
     font-size: 0.95rem;
 }
 
-.text-sel{
+.text-sel {
     width: 208px;
     height: 48px;
     flex-shrink: 0;
@@ -56,9 +51,9 @@ img {
     border: 1px solid #022B94;
 }
 
-.details{
+.details {
     width: 69.5625rem;
-    height: 58.25rem;
+    height: 58.9375rem;
     flex-shrink: 0;
     border-radius: 1.25rem;
     background: rgba(244, 244, 244, 0.96);
@@ -96,7 +91,7 @@ img {
     letter-spacing: -0.09rem;
 }
 
-.user{
+.user {
     color: rgba(0, 0, 0, 0.80);
     padding-left: 0.3rem;
     font-family: Montserrat;
@@ -108,7 +103,7 @@ img {
 
 }
 
-.balance{
+.balance {
     width: 64.625rem;
     height: 16rem;
     flex-shrink: 0;
@@ -179,8 +174,7 @@ img {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 134.4%;
-    /* 1.68rem */
+    line-height: 134.4%; /* 1.68rem */
     letter-spacing: -0.075rem;
     margin-bottom: 0.5rem;
 }
@@ -212,6 +206,7 @@ img {
     width: 1.25rem;
     height: 1.125rem;
     flex-shrink: 0;
+    margin: 0.3rem 1.5rem auto -1.2rem;
 }
 
 .transact1 {
@@ -222,6 +217,7 @@ img {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.075rem;
+    margin: 0.3rem 1.5rem auto 0rem;
 }
 
 .top-up {
@@ -232,128 +228,83 @@ img {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.075rem;
+    margin: 0.3rem 0rem auto 0.05rem;
 }
-
-/*.transactions_con{
-    background-color: white;
-    border-radius: 10px;
-    margin-right: 2rem;
-    height: 5rem;
-    width: 20rem;
-    position: relative;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400
-    fo
-}
-
-.transaction h5 {
-    position: relative;
-    top: 1.7rem; 
-    right: 2rem;
-    background: rgba(0, 0, 0, 0.8);
-    font-weight: 600;
-    margin-left: 2.5rem;
-}
-
-.transaction p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.75rem;
-    background: rgba(0, 0, 0, 0.4);
-    font-weight: 400;
-}
-*/
 
 .transactions_con {
-    background-color: white;
-    border-radius: 10px;
-    margin-right: 2rem;
-    height: 5rem;
-    width: 20rem;
-    position: relative;
-    margin-bottom: 3rem;
-    font-family: 'Montserrat', sans-serif;
+    width: 20.5625rem;
+    height: 8.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #FFF;
+    margin-right: 1.5rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.tcon-head {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
     font-weight: 400;
-  }
-  
-.transactions_con h5 {
-    position: absolute;
-    top: 1.6875rem; 
-    left: 2.5rem; 
-    color: rgba(0, 0, 0, 0.8);
-    font-weight: 600;
-    margin-bottom: 0.19rem;
-  }
-  
-.transactions_con p:first-child {
-    top: 3.375rem;
-    left: 2.5rem; 
-    opacity: 0.4; 
+    line-height: normal;
+    letter-spacing: -0.075rem;
+}
+
+.tcon-desc {
     color: rgba(0, 0, 0, 0.40);
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.0525rem;
-    margin-bottom: 1.12rem;
-    margin-top: 2rem;
-  }
-  
-.transactions_con p:last-child {
-    font-weight: 600; 
-    margin-left: 2.5rem; 
-    font-weight: 600;
+}
+
+.tcon-amnt {
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
     font-size: 1.25rem;
     font-style: normal;
+    font-weight: 600;
     line-height: 140.9%; /* 1.76125rem */
     letter-spacing: -0.075rem;
 }
-  
-.transactions_con p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9375rem; 
-    color: rgba(0, 0, 0, 0.4);
-    font-weight: 400;
-  }
-  
+
 .recent_transactions {
-    display: flex;
-    background-color: white;
-    border-radius: 1.2rem;
-    height: 12rem;
+    width: 65.1875rem;
+    height: 13.875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #FFF;
 }
 
 .rcnt_transaction {
-    margin: 0;
-    margin-top: 2.62rem;
-    font-size: 1.25rem;
-    margin-left: 3rem; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
     color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 1.25rem;
     font-style: normal;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: -0.075rem;
+    padding: 2rem 1rem 1rem;
 }
 
 .rcnt_txt {
-    margin-top: 7rem;
-    margin-left: -8rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
+    margin-top: 0rem;
+    margin-left: 2rem;
     color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 1.25rem;
     font-style: normal;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: -0.075rem;
 }
 
 .rcnt_txt1 {
-    margin-top: 7rem;
-    margin-left: 10rem;
+    margin-top: 0rem;
+    margin-left: 15rem;
     font-size: 1.25rem;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
