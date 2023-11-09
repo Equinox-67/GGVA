@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
     <title>Dashboard</title>
   </head>
   <body>
@@ -121,16 +122,26 @@
           </div>
         </div>
         <div class="transactions d-flex p-4">
-          <div class="transactions_con px-4 me-2 w-50">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>2345656423454</p>
+          <div class="transactions_con px-1 w-40 h-150">
+            <h5>Transaction Limit</h5>
+            <p>Your current transaction limit</p>
+            <p>$2,000,000.00</p>
           </div>
-          <div class="transactions_con px-4 d-flex flex-column ms-2 w-50">
-            <h5>Lorem ipsum dolor sit amet.</h5>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-            <p>2345656423454</p>
+          <div class="transactions_con px-1 w-40 h-150">
+            <h5>Pending Transaction</h5>
+            <p>Total pending transaction currently</p>
+            <p>$0.00</p>
           </div>
+          <div class="transactions_con px-1 w-40 h-150">
+            <h5>Transaction Volume</h5>
+            <p>Total volume of transactions made</p>
+            <p>$0.00</p>
+          </div>
+        </div>
+        <div class="recent_transactions">
+          <div class="rcnt_transaction">Recent Transactions</div>
+          <div class="rcnt_txt" px-1>Amount</div>
+          <div class="rcnt_txt1" px-1>Type</div>
         </div>
       </div>
     </div>
